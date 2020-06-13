@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed; /* Fixes navbar at certain spot on screen so that it will not move */
+    top: 0; /* Sets the top of the navbar div to the very top of the screen */
+    width: 100%; /* Take up entire width of the screen */
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color: white; /* Text color */
+    justify-content: space-around; /* Aligns all items inside the navbar horizontally */
+    align-items: center;  /* Aligns all items vertically */
+}
+
+.brand {
+    font-size: 35px;
+    color: white;
+}
+.navbtn {
+    font-size: 25px;
+    color: white;
+}
+
+.spacer {
+    /* By default, a div has: position: static; <-- this means it is in the DOM flow */
+    width: 100%;  /* Take up entire width of the screen */
+    height: 65px;
+}
+
+.form-center {
+    position: absolute;
+    width: 100%;
+}

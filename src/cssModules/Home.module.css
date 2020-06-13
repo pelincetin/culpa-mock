@@ -1,0 +1,17 @@
+/* Inside Home.module.css */
+.infocard {
+    width: 40em;
+    min-height: 5em;
+    border: 1px solid lightgray;
+    border-radius: 1%;
+    margin: 0 auto 0.5em; /* top, right/left, bottom */ /* bottom margin provides space between cards */ /* Auto center the cards horizontally */
+    background-color: white;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  body {
+    background-color: rgb(241, 242, 242);
+  }
